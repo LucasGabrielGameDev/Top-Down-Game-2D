@@ -4899,6 +4899,7 @@ GameObject:
   - component: {fileID: 1746003771501258055}
   - component: {fileID: 6438345031512916626}
   - component: {fileID: 4900071976358116518}
+  - component: {fileID: 3828863913818114380}
   m_Layer: 0
   m_Name: TreeOBJ
   m_TagString: Untagged
@@ -4972,7 +4973,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.029572368, y: -0.21292138}
+  m_Offset: {x: 0.029572368, y: -0.31800336}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4983,7 +4984,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8580525, y: 0.94085455}
+  m_Size: {x: 0.8580525, y: 0.7306906}
   m_EdgeRadius: 0
 --- !u!50 &4900071976358116518
 Rigidbody2D:
@@ -5006,6 +5007,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3828863913818114380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137383225964533122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &2137383226459490895
 GameObject:
   m_ObjectHideFlags: 0

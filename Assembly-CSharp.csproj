@@ -44,15 +44,18 @@
      <Compile Include="Assets\Scripts\PlayerItens.cs" />
      <Compile Include="Assets\Scripts\PlayerAnim.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Enemy\AnimationControl.cs" />
      <Compile Include="Assets\Scripts\Dialogue\DialogueSettings.cs" />
      <Compile Include="Assets\Scripts\NPC\NPC_Dialogue.cs" />
      <Compile Include="Assets\Scripts\Drops\Fish.cs" />
      <Compile Include="Assets\Scripts\Drops\Wood.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Skeleton.cs" />
      <Compile Include="Assets\Scripts\Farm\SlotFarm.cs" />
      <Compile Include="Assets\Scripts\Farm\Water.cs" />
      <Compile Include="Assets\Scripts\Farm\Casting.cs" />
-     <Compile Include="Assets\Scripts\Enemy\Skeleton.cs" />
-     <Compile Include="Assets\Scripts\Enemy\AnimationControl.cs" />
+     <Compile Include="Assets\Sounds\AudioManager.cs" />
+     <Compile Include="Assets\Sounds\AudioControl.cs" />
+     <Compile Include="Assets\Scripts\Sounds\ActorSFX.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -718,13 +721,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{9c8552a0-d4a3-11d7-ec8e-8559704e9b95}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{3c118b1c-6a08-234a-b35c-e2b6c580b1c8}</Project>
       <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{9c8552a0-d4a3-11d7-ec8e-8559704e9b95}</Project>
+      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
